@@ -1,0 +1,265 @@
+/*-----------------common css start--------------*/
+*{
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 10px;
+	color: gray;
+
+}
+a {
+	color: gray;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+a:hover{
+	color: rgb(193, 40, 70);;
+}
+
+/*-----------------common css end--------------*/
+
+
+
+
+
+
+
+/*----------------header start--------------*/
+.section{
+	/*border: 1px solid red;*/
+	min-height: 10px;
+	padding: 1% 0;
+}
+.wrapper{
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid cyan;*/
+}
+
+.header_logo{
+	width: 15%;
+	float: left;
+	/*border: 1px solid blue;*/
+
+}
+.header_logo img{
+	width: 100%;
+	padding-left: 0px;
+}
+.menu{
+	padding: .99%; 
+    width: 80%;
+   /* border: 1px solid blue;*/
+    float: right;
+	
+}
+.menu ul{float:  right;
+	overflow: hidden;
+}
+.menu li{
+	list-style: none;
+	float: left;
+}
+.menu a{
+	text-decoration: none;
+    padding: 11px 10px;
+    display: block;
+    float: left;
+ 
+}
+.spancolor{
+	color: red;
+}
+/*----------------header end--------------*/
+
+
+
+
+
+
+/*----------------banner start--------------*/
+.b_back_img{
+	background-image: url("images/banner.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.b_content_wrapper{
+	width: 40%;
+}
+.b_h1{
+	color: white;
+	font-size: 300%;
+}
+.b_p{
+	color: white;
+	
+}
+.b_content_wrapper{
+	padding: 50px 0;
+}
+.b_h1, .b_p, .b_button{
+	margin: 5% 0;
+}
+.button{
+	color: white;
+	background-color: rgb(193, 40, 70);
+	padding: 5px 5px;
+}
+
+/*----------------banner end--------------*/
+
+
+
+
+
+/*---------------- work start --------------*/
+.w_h2_p{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.w_p{
+	color:  gray;
+
+}
+.w_h2, .w_p{
+	margin: 5% 0;
+}
+.w_logo{
+	width: 30%;
+	float: left;
+	/*border: 1px solid black;*/
+	min-height: 30px;
+	padding: 0 1.5%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+
+}
+img{
+	width: 30%;
+	padding-left: 
+	35%;
+padding-bottom: 1.5%;}
+
+.w_logo_p{
+	text-align: center;
+	padding: 5%
+
+	
+}
+
+/*---------------- work end --------------*/
+
+
+
+
+
+/*---------------- Learn start --------------*/
+.l_background{
+	background-color: rgb(250, 250, 250);
+}
+.l_left_message{
+	float: left;
+	width: 48%;
+	padding-right: 2%;
+
+}
+.l_right_message{
+	float: right;
+	width: 48%;
+	padding-left: 2%;
+
+}
+.l_h2{
+	color: black;
+}
+.l_h2, .l_p{
+	padding: 3% 0;
+}
+
+/*---------------- Learn end --------------*/
+
+
+
+
+
+
+
+
+/*--Set all features start --------------------------------------*/
+
+.reset{
+	width: 17%;
+    margin: 0 41.5%;
+    margin-bottom: 7%;
+}
+/*--Set all features end --------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*------ contact start-----*/
+.contact_background{
+	background-color: black;
+}
+
+.h2_color h2{
+	color: rgb(193, 40, 70);
+}
+.useful_links{
+	padding-left: 0;
+}
+/*-------contact end --------*/
+
+
+
+
+
+
+
+
+/*----footer start ----------*/
+.footer_background{
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
+/*----footer end ----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+.w_logo{
+	transition: .3s;
+}
+.w_logo:hover{
+	transform: scale(.8);
+}
+
+.contact_background .w_logo{
+	transition: 0s;
+}
+.contact_background .w_logo:hover{
+	transform: scale(1);
+}
